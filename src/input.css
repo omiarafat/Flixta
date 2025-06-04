@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'urbanist';
+    src: url('../public/assets/fonts/Urbanist-Regular') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'urbanist';
+    src: url('../public/assets/fonts/Urbanist-Medium') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'urbanist';
+    src: url('../public/assets/fonts/Urbanist-SemiBold') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'urbanist';
+    src: url('../public/assets/fonts/Urbanist-Bold') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'urbanist';
+    src: url('../public/assets/fonts/Urbanist-ExtraBold') format('ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+body {
+    font-family: "Urbanist", sans-serif ;
+}
